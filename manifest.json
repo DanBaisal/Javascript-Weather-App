@@ -15,5 +15,6 @@
     ],
     "start_url": "https://dans-javascript-weather-app.netlify.com",
     "background_color": "white",
-    "display": "fullscreen"
+    "display": "fullscreen",
+    "theme_color": "#0f4a73"
   }
