@@ -12,7 +12,7 @@ body {
     position: relative;
     padding: 30px 25px;
     margin: 20px;
-    width: 70%;
+    width: 60%;
     height: 100px;
     opacity: 0.7;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -27,7 +27,7 @@ body {
     box-shadow: 1px 1px 5px black;
     padding: 50px;
     border-radius: 10px;
-    position: relative;
+    position: absolute;
     visibility: hidden;
     margin-top: 170px;
     width: 50.5%;
