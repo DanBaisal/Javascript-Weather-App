@@ -6,6 +6,7 @@ body {
     color: white;
     text-shadow: 2px 2px 1px black;
     font-family: "Palatino", "Book Antiqua", serif;
+    height: 100%;
 }
 
 #intro {
@@ -29,10 +30,10 @@ body {
     border-radius: 10px;
     position: absolute;
     visibility: hidden;
-    margin-top: 170px;
+    margin-top: 200px;
     width: 50.5%;
     margin-left: auto;
-    height: 350px;
+    min-height: 100%;
 }
 #weatherContainer h1 {
     margin: 5px;
