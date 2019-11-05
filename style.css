@@ -9,10 +9,17 @@ body {
 }
 
 #intro {
-    position: absolute;
-    padding: 15px 25px;
+    position: relative;
+    padding: 30px 25px;
+    margin: 15px;
+    width: 70%;
+    height: 120px;
+    opacity: 0.7;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     position: center;
     background-color: black;
+    font-size: 5rem;
+    border-radius: 3%;
 }
 
 #weatherContainer {
@@ -22,40 +29,42 @@ body {
     border-radius: 10px;
     position: absolute;
     visibility: hidden;
+    margin-top: 170px;
+    width: 50.5%;
+    margin-left: auto;
+    height: 350px;
 }
 #weatherContainer h1 {
     margin: 5px;
-    font-size: 42px;
+    font-size: 3rem;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 #searchContainer {
-    padding: 15px;
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 35%;
+    border-radius: 20%;
 }
 #searchContainer input {
-    width: 200px;
+    width: 430px;
+    height: 150px;
+    font-size: 3rem;
+    text-align: center;
+    opacity: 0.5;
 }
 #searchContainer button {
     background-color:black;
+    margin-left: 10px;
     color: white;
-    width: 75px;
+    width: 150px;
+    font-size: 2.5rem;
 }
 .searchControl {
     box-shadow: 2px 2px 5px black;
     border: none;
     border-radius: 5px;
     padding: 5px;
-}
-@media (min-width: 768px) {
-
-    #searchContainer input,
-    #searchContainer button {
-        width: 15vh;
-        height: 15vh;
-        
-    }
 }
 #weatherMain {
     display: block;
@@ -65,16 +74,17 @@ body {
     display: inline-block;
 }
 #weatherDescriptionHeader {
-    font-size: 28px;
-    vertical-align: 50%;
+    font-size: 2.5rem;
+    vertical-align: 25%;
 }
 #temperature {
     font-size: 38px;
     vertical-align: 25%;
+    margin-right: 15px;
 }
 .bottom-details {
     display: block;
-    font-size: 24px;
+    font-size: 2.5rem;
     text-align: right;
 }
 hr {
