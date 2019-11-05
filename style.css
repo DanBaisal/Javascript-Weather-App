@@ -28,12 +28,12 @@ body {
     box-shadow: 1px 1px 5px black;
     padding: 50px;
     border-radius: 10px;
-    position: absolute;
+    position: fixed;
     visibility: hidden;
     margin-top: 200px;
     width: 50.5%;
     margin-left: auto;
-    min-height: 100%;
+    height: 350px;
 }
 #weatherContainer h1 {
     margin: 5px;
