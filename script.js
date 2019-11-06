@@ -9,8 +9,6 @@ function getSearchMethod(searchTerm) {
         searchMethod = 'q';
 }
 
-getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_NOTHING);
-
 function searchWeather(searchTerm) {
     getSearchMethod(searchTerm);
     fetch(`https://api.openweathermap.org/data/2.5/weather?${searchMethod}=${searchTerm}&APPID=${appId}&units=${units}`)
