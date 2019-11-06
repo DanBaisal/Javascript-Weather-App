@@ -1,6 +1,5 @@
 body {
     background-image: url('default.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     color: white;
@@ -8,6 +7,7 @@ body {
     font-family: "Palatino", "Book Antiqua", serif;
     height: 100%;
     position: relative;
+    -webkit-background-size: cover;
 }
 
 #intro {
