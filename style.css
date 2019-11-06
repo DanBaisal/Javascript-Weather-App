@@ -1,13 +1,12 @@
 body {
     background-image: url('default.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position:fixed;
     color: white;
     text-shadow: 2px 2px 1px black;
     font-family: "Palatino", "Book Antiqua", serif;
     height: 100%;
     position: relative;
-    -webkit-background-size: cover;
 }
 
 #intro {
