@@ -23,6 +23,11 @@ body {
     border-radius: 3%;
 }
 
+.empty {
+    position: relative;
+    justify-content: center;
+}
+
 #weatherContainer {
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: 1px 1px 5px black;
