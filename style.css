@@ -24,7 +24,7 @@ body {
 }
 
 .empty {
-    position: relative;
+    position: fixed;
     justify-content: center;
 }
 
