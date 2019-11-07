@@ -28,7 +28,7 @@ body {
     box-shadow: 1px 1px 5px black;
     padding: 50px;
     border-radius: 10px;
-    position: absolute;
+    position: fixed;
     visibility: hidden;
     margin-top: 200px;
     width: 50.5%;
