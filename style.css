@@ -24,7 +24,7 @@ body {
 }
 
 .empty {
-    position: fixed;
+    position: absolute;
     justify-content: center;
 }
 
@@ -54,6 +54,7 @@ body {
     justify-content: center;
     margin-top: 35%;
     border-radius: 20%;
+    position: fixed;
 }
 #searchContainer input {
     width: 430px;
