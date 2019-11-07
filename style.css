@@ -23,8 +23,10 @@ body {
     border-radius: 3%;
 }
 
-.empty {
+#empty {
     position: absolute;
+    display: inline;
+    align-content: center;
     justify-content: center;
 }
 
@@ -54,7 +56,6 @@ body {
     justify-content: center;
     margin-top: 35%;
     border-radius: 20%;
-    position: fixed;
 }
 #searchContainer input {
     width: 430px;
