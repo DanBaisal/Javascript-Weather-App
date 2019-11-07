@@ -28,7 +28,7 @@ body {
     box-shadow: 1px 1px 5px black;
     padding: 50px;
     border-radius: 10px;
-    position: fixed;
+    position: absolute;
     visibility: hidden;
     margin-top: 200px;
     width: 50.5%;
@@ -36,7 +36,7 @@ body {
     height: 350px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center center;
 }
 #weatherContainer h1 {
     margin: 5px;
